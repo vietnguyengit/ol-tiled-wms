@@ -7,7 +7,8 @@ const layers = [
     new TileLayer({
         // extent: [-13884991, 2870341, -7455066, 6338219],
         source: new TileWMS({
-            url: 'https://dj1grxrnja4ay.cloudfront.net/geoserver/wms',
+            url: 'https://geoserver-vhnguyen-geoserver-static.dev.aodn.org.au/geoserver/wms',
+            // url: 'https://dj1grxrnja4ay.cloudfront.net/geoserver/wms',
             params: {'LAYERS': 'baselayers:default_basemap_simple', 'TILED': true},
             serverType: 'geoserver',
             // Countries have transparency, so do not fade tiles:
